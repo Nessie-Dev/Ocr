@@ -1,5 +1,5 @@
 const express = require('express');
-import fetch from 'fetch';
+const fetch = require('node-fetch');
 const fs = require('fs');
 const path = require('path');
 const { promisify } = require('util');
