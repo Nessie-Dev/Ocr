@@ -69,7 +69,7 @@ app.get('/api/image/imgtotext', async (req, res) => {
 
     const data = await apiResponse.json();
     await unlinkFileAsync(imagePath);
-
+    //nice
     res.json(data);
   } catch (error) {
     res.status(500).json({ error: 'An error occurred' });
